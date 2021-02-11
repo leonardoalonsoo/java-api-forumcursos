@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: javaforum-api
+spec:
+  selector:
+    matchLabels:
+      app: javaapi
+  replicas: 1 
+  template:
+    metadata:
+      labels:
+        app: javaapi
+    spec:
+      containers:
+      - name: javaforumapi
+        image: leonardoalonsorj/java11-forumcurso-api
+        ports:
+        - containerPort: 8080
