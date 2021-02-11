@@ -1,0 +1,17 @@
+com\leoalonso\forum\controller\dto\RespostaDto.class
+com\leoalonso\forum\model\StatusTopico.class
+com\leoalonso\forum\repository\TopicoRepository.class
+com\leoalonso\forum\controller\dto\TopicoDto.class
+com\leoalonso\forum\config\validation\ErroDeFormularioDto.class
+com\leoalonso\forum\config\validation\ErroDeValidacaoHandler.class
+com\leoalonso\forum\controller\TopicosController.class
+com\leoalonso\forum\model\Curso.class
+com\leoalonso\forum\controller\dto\DetalhesDoTopicoDto.class
+com\leoalonso\forum\controller\HelloController.class
+com\leoalonso\forum\model\Topico.class
+com\leoalonso\forum\controller\form\AtualizacaoTopicoForm.class
+com\leoalonso\forum\controller\form\TopicoForm.class
+com\leoalonso\forum\model\Resposta.class
+com\leoalonso\forum\repository\CursoRepository.class
+com\leoalonso\forum\ForumApplication.class
+com\leoalonso\forum\model\Usuario.class
